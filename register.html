@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+<title>Registration</title>
+<link rel="stylesheet" href="register.css">
+</head>
+<BODY>
+    <div class="formarea">
+    <form action="#" method="GET" id="form">
+        <fieldset class="info">
+            <legend>
+                personal Inoformation:
+            </legend>
+            <div class="container1">
+            <p>Full Name*</p>
+            <input type="text" required>
+            </div>
+            <div class="container2">
+            <p>Email address*</p>
+            <input type="email" required placeholder="abc@gmail.com">
+            </div>
+            <div class="container3">
+            <p>College Email id*</p>
+            <input type="email" required placeholder="abc@akgec.ac.in">
+            </div>
+            <div class="container4">
+            <p>Contact No*</p>
+            <input type="tel" required placeholder="91280*****">
+            </div>
+            <div class="container5">
+            <p>Semester</p>
+            <input type="tel" required disabled value="3"> 
+            </div>
+            <div class="container6">
+            <p>1st year GPA*</p>
+            <input type="number" step="0.1" min="0" max="10" value="7">
+            </div>
+            <div class="container7">
+            <p>D.O.B*</p>
+            <input type="date">
+            </div> 
+            <div class="container8">
+                <p>Prefrance</p>
+                <input list="browsers"><datalist id="browsers" style="position: absolute;"> 
+                    <option>Electronics</option>
+                    <option>Programing</option>
+                    <option>Mechanical</option>
+                    <option>Managment</option></select>
+                </datalist>
+                
+                </div>   
+            <textarea class="container9">"Why you want to be in Robotics"
+            </textarea>  
+            
+            
+
+        </fieldset>
+        
+        <div style="text-align: center;">
+        <div class="status"></div>
+        <button type="submit">Submit</button>
+        </div>
+    </form>
+    </div>
+    <script src="backend.js"></script>
+</BODY>
+</html>
